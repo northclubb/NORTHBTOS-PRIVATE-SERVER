@@ -1,0 +1,19 @@
+{
+  "name": "northbots-server",
+  "version": "2.0.0",
+  "description": "Minecraft NorthBots Server — Offline & Online modes",
+  "main": "main.js",
+  "scripts": {
+    "start":  "electron .",
+    "server": "node server.js",
+    "server:4000": "node server.js 4000",
+    "server:4001": "node server.js 4001"
+  },
+  "dependencies": {
+    "mineflayer": "^4.23.0",
+    "ws":         "^8.17.0"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0"
+  }
+}
